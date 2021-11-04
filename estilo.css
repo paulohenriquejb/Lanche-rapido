@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --roxo:DarkMagenta;
+    --laranja:#FF8C00;
+    --vermelho:#8B0000;
+    --roxoclaro:#9932CC;
+}
+body{
+    background: var(--roxoclaro);
+}
+header{
+    background: var(--roxo);
+    height: 50px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;    
+}
+header h1,span{
+    margin-top: 5px;
+}
+
+header h1{
+    margin-left: 20px;
+    color:red;
+}
+header span{
+    color: var(--laranja);
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.container nav a:hover{
+    color: var(--roxoclaro);
+    background: white;
+    border-radius: 10px;
+    padding: 7px 14px;
+    font-weight: bolder;
+}
+
+/**CAPA**/
+.CAPA{
+    background: url("img/CAPA.jpeg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   
+}
+.capa-salgados{
+    background: url("img/salgado\ 1.webp");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.titulo-capa h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.titulo-capa{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+    color: white;
+    background: var(--roxoclaro);
+    border-radius:0 20px 20px 0;
+}
+
+.item img{
+    width: 100px;
+    height: 150px;
+}
+.item p{
+    background: var(--roxo);
+    color: white;
+    text-align: center;
+}
+.item{
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.owl-carousel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+H4{
+    margin-left: 20px;  
+    color: white;
+    margin-top: 20PX;
+    font-size: 20px;
+}
+
+.footer{
+    background: var(--roxo);
+    color: white;
+    text-align: center;
+}
