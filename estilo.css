@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 :root{
     --roxo:DarkMagenta;
@@ -49,6 +50,7 @@ header span{
     padding: 7px 14px;
     font-weight: bolder;
 }
+
 
 /**CAPA**/
 .CAPA{
@@ -116,3 +118,32 @@ H4{
     color: white;
     text-align: center;
 }
+
+
+
+/*receita escrita*/
+.escrita-bordar{
+    border: solid 1px rebeccapurple;
+    margin: 5px 0 5px 0;
+    background-color:#D8CEF6 ;
+    width: 450px;
+    height: 650px;
+    text-align: center;
+    margin-left: 50px;
+    float: left;
+
+}
+
+.escrita-bordar img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.escrita-bordar h3,h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
